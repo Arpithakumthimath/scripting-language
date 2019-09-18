@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>looping through arrays inside arrays</p>
+<p id="demo"></p>
+
+<script>
+
+var myobj,x= "",i,j;
+myobj={
+	"name":"jhon",
+	"age":30,
+	"cars":[
+		{"name":"ford","models":["fiesta","focus","mustang"]},
+		{"name":"BMW","models":["320","x3","x5"]},
+		{"name":"ford","models":["500","panda"]}
+	]
+}
+for(i in myobj.cars){
+	x += "<h2>" + myobj.cars[i].name+"</h2>";
+	for(j in myobj.cars[i].models){
+		x += myobj.cars[i].models[j] + "<br>";
+	}
+}
+document.getElementById("demo").innerHTML=x;
+</script>
+</body>
+</html>
