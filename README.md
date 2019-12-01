@@ -2,9 +2,9 @@
 
 ### (under Department of ISE, Ramaiah Institute of Technology)
 
-## USN : 1MS17IS041
+## USN : 1MS17IS401
 
-## Name : Diya Deepak Wadhwani
+## Name :Arpitha kumthimath
 
 ## Section : 5A
 
